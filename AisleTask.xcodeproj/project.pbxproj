@@ -164,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				BF9753762E1025C500E41938 /* DelegateFiles */,
-				BF9753702E10226200E41938 /* VieewController */,
+				BF9753702E10226200E41938 /* ViewController */,
 				BF9753742E10258900E41938 /* View */,
 				BF9753712E1022A100E41938 /* Model */,
 				BF9753752E1025A600E41938 /* GenericHelper */,
@@ -193,7 +193,7 @@
 			path = AisleTaskUITests;
 			sourceTree = "<group>";
 		};
-		BF9753702E10226200E41938 /* VieewController */ = {
+		BF9753702E10226200E41938 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				BF790DDD2E0D729C00C68CBC /* LoginVC.swift */,
@@ -201,7 +201,7 @@
 				BF9753732E10257900E41938 /* TabBarController  */,
 				BF9753722E10254E00E41938 /* CollectionViewCell */,
 			);
-			path = VieewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		BF9753712E1022A100E41938 /* Model */ = {

@@ -1,10 +1,3 @@
-//
-//  OTPVC.swift
-//  AisleTask
-//
-//  Created by K V Jagadeesh babu on 26/06/25.
-//
-
 import UIKit
 
 class OTPVC: UIViewController {

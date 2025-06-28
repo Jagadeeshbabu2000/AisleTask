@@ -1,10 +1,3 @@
-//
-//  TabBarVC.swift
-//  AisleTask
-//
-//  Created by K V Jagadeesh babu on 27/06/25.
-//
-
 import UIKit
 
 class TabBarVC: UITabBarController {

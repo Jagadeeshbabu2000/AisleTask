@@ -1,12 +1,4 @@
-//
-//  APIHandler.swift
-//  AisleTask
-//
-//  Created by K V Jagadeesh babu on 26/06/25.
-//
-
 import Foundation
-import UIKit
 
 class APIHandler {
     static let shared = APIHandler()
@@ -63,15 +55,11 @@ class APIHandler {
                 request.setValue(headerValue, forHTTPHeaderField: key)
             }
         }
-        print("Final URL: \(urlStr)")
-            print("Headers: \(Header)")
-
         let apiresponse = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
                 complationHandler(.failure("No data" as! Error))
                 return
             }
-            print("Data response \(String(data: data, encoding: .utf8))")
             if let error = error {
                 complationHandler(.failure(error))
                 return

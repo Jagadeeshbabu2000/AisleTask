@@ -1,12 +1,3 @@
-//
-//  ProfileCollectionViewCell.swift
-//  AisleTask
-//
-//  Created by K V Jagadeesh babu on 28/06/25.
-//
-
-import UIKit
-
 import UIKit
 
 class ProfileCollectionViewCell: UICollectionViewCell {
